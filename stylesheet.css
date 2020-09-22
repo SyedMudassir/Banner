@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+body{
+    margin: 0;
+}
+.container{
+    background-image: url('images/Blogpost interface OPT-3.png');
+    width: 100%;
+    height: 450px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: '';
+    position: absolute;
+}
+.content{
+    width: 550px;
+    margin: 0 auto;
+    padding-top: 9%;
+}
+.content h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
+}
+.textWithImage{
+    margin: 0;
+}
+.textWithImage p{
+    display: inline;
+    color: #fff;
+    vertical-align: super;
+}
+.textWithImage img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+@media only screen and (max-width:550px){
+    .container{
+        width: auto;
+    }
+    .content h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .content{
+        width: 100%;
+        padding-top: 15%;
+    }
+    .mystic-logo{
+     padding: 10px;
+    }
+    .textWithImage{
+        padding: 10px;
+    }
+}
